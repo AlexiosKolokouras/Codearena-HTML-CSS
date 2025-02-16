@@ -1,0 +1,737 @@
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ZonaPro;
+  src: url("./fonts/ZonaPro-Light.otf");
+  font-weight: 100;
+}
+
+body {
+  margin: 0;
+  font-family: ZonaPro, sans-serif;
+}
+
+.branding {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* menu */
+
+nav.navigation {
+  border-top: 1px solid #0babce;
+  border-bottom: 1px solid #dedede;
+}
+
+nav.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 -14px;
+  display: flex;
+  justify-content: center;
+}
+
+nav.navigation ul li a {
+  padding: 24px 14px;
+  line-height: 22px;
+  display: block;
+  text-decoration: none;
+  color: #58585a;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* highlight */
+
+#highlight {
+  background: #f7f7f7;
+  position: relative;
+}
+
+#highlight:after {
+  content: "";
+  background: #dfe3e4;
+  display: block;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#slide {
+  background: url("./images/hero.jpg") center top no-repeat;
+  min-width: 980px;
+  height: 391px;
+  position: relative;
+  z-index: 2;
+}
+
+.slide-wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.slide-text {
+  width: 470px;
+  color: #58585a;
+}
+
+.slide-text h1 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.slide-text h1 span {
+  font-weight: 100;
+}
+
+.slide-text p {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.more {
+  border: none;
+  background-color: #0898b8;
+  padding: 8.5px 19px 8.5px 19px;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.call-us {
+  border: none;
+  background-color: #0898b8;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+  padding: 8.5px 19px 8.5px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-img {
+  margin: -4px;
+  margin-left: 5px;
+}
+
+/* services */
+
+#services {
+  background-color: #eeeeee;
+  height: 282px;
+  position: relative;
+  min-width: 980px;
+}
+
+.services-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 313px 0 308px;
+  padding: 0;
+  z-index: 2;
+}
+
+.services-container > div {
+  color: white;
+  width: 300px;
+  margin: 20px;
+  margin-top: 40.04px;
+  margin-bottom: 41.96px;
+  text-align: center;
+}
+
+.service-background {
+  position: relative;
+}
+
+.service-background:after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 61px;
+  top: 125px;
+  bottom: 16.04px;
+  left: 0px;
+  background-color: #0898b8;
+  opacity: 80%;
+}
+
+.service-button {
+  position: absolute;
+  top: 110px;
+  left: 19px;
+  color: white;
+  z-index: 2;
+  text-decoration: none;
+  line-height: 18px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  width: 300px;
+  height: 61px;
+  display: flex;
+}
+
+.services-text {
+  width: 138px;
+  height: 36px;
+}
+
+.servicesSub-text {
+  font-weight: 100;
+  width: 300px;
+  display: inline-flex;
+}
+
+#services .button-img {
+  margin-top: 50px;
+  margin-left: 108px;
+  width: 19.97px;
+  height: 12.84px;
+  justify-content: end;
+}
+
+/* about us */
+
+#about-us {
+  background-color: #ffffff;
+  min-width: 980px;
+  height: 374.25px;
+  position: relative;
+}
+
+.purpose,
+.philosophy,
+.specificity {
+  height: 110px;
+  width: 110px;
+  background-color: #0898b8;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-top: 26.5px;
+  vertical-align: middle;
+}
+#about-us .circe-img {
+  margin-top: 23.5px;
+}
+#about-us .line {
+  border: 1px solid #0babce;
+  margin-top: -45.25px;
+}
+
+.purpose {
+  margin-left: 170px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.philosophy {
+  margin-left: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.specificity {
+  margin-left: 220.5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.about-us-title {
+  margin-top: 26.5px;
+  width: 311px;
+  line-height: 22px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #58585a;
+  font-weight: bold;
+}
+
+.about-us-text {
+  display: inline-block;
+  font-family: "Open Sans";
+  vertical-align: top;
+  width: 320px;
+  height: 182px;
+  font-weight: 100;
+  line-height: 22px;
+  font-size: 15px;
+  color: #58585a;
+}
+
+/* info */
+
+#info {
+  background: #eeeeee;
+  position: relative;
+}
+
+#info:after {
+  content: "";
+  background: #e6e6e6;
+  display: block;
+  height: 100%;
+  width: 50%;
+  flex: 0px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.flex-info {
+  display: flex;
+  flex-direction: row;
+  background: #f7f7f7;
+}
+
+.flex-info-left {
+  background-color: #eeeeee;
+  flex: 335px;
+  width: 544px;
+  height: 312px;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.flex-info-right {
+  padding-bottom: 40px;
+  min-width: 310px;
+  height: 312px;
+  flex: 0px;
+  background-color: #e6e6e6;
+  position: relative;
+  z-index: 2;
+}
+
+#info .title {
+  font-size: 20px;
+  width: 275px;
+  line-height: 18px;
+  color: #58585a;
+  padding-top: 35.75px;
+  padding-left: 18.5px;
+}
+
+.title span {
+  font-weight: bold;
+}
+
+.quote-mark {
+  background: url("./images/quote-mark.png") no-repeat;
+  margin-top: 12px;
+  width: 59px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.left-text {
+  display: inline-block;
+  font-family: "Open Sans";
+  vertical-align: top;
+  width: 550px;
+  height: 158px;
+  line-height: 22px;
+  font-size: 15px;
+  color: #58585a;
+  margin-top: -12px;
+}
+
+.right-text {
+  display: flex;
+  font-family: "Open Sans";
+  vertical-align: top;
+  width: 288.5px;
+  height: 110px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #58585a;
+  padding-left: 18.5px;
+  position: relative;
+  z-index: 2;
+}
+
+.left-arrow {
+  background: url("./images/left-row.png") no-repeat;
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  color: #afafb0;
+  margin-right: 35px;
+  position: relative;
+  z-index: 2;
+}
+
+.right-arrow {
+  background: url("./images/right-row.png") no-repeat;
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  color: #717172;
+  position: relative;
+  z-index: 2;
+}
+
+.right-text-btn {
+  margin-top: 30px;
+  margin-left: 18.5px;
+  border: none;
+  background-color: #0898b8;
+  padding: 8.5px 19px 8.5px 19px;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* patient info */
+
+#patient-info {
+  min-width: 980px;
+  position: relative;
+  height: 302.91px;
+  margin-left: 130px;
+  margin-top: 36.75px;
+  box-sizing: border-box;
+}
+
+.patient-info-text {
+  width: 321px;
+  align-items: center;
+  padding-left: 51px;
+}
+
+.patient-info-title {
+  width: 178px;
+  line-height: 18px;
+  color: #58585a;
+  font-size: 20px;
+  height: 36px;
+  margin: 0;
+  font-family: Zona Pro;
+}
+
+.patient-info-description {
+  width: 299.5px;
+  height: 48.5px;
+  font-family: "Open Sans";
+  font-weight: light;
+  font-size: 15px;
+  line-height: 22px;
+  color: #717172;
+}
+
+.patient-arrow {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6px;
+}
+
+.patient-left-arrow {
+  background: url("./images/left-row.png") no-repeat;
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  color: #afafb0;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.patient-right-arrow {
+  background: url("./images/right-row.png") no-repeat;
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  color: #717172;
+}
+
+.patien-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  min-width: 980px;
+}
+
+.patient-info-left {
+  flex: 50%;
+}
+
+.patient-info-right {
+  display: flex;
+}
+
+.brain-tumor-img {
+  background: url("./images/brain-tumor.png") no-repeat;
+  width: 150px;
+  height: 225px;
+  padding-left: 14.5px;
+}
+
+.backache-img {
+  background: url("./images/backache.png") no-repeat;
+  width: 150px;
+  height: 225px;
+  padding-left: 14.5px;
+}
+
+.diagnostic-tests-img {
+  background: url("./images/diagnostic-tests.png") no-repeat;
+  width: 150px;
+  height: 225px;
+  padding-left: 14.5px;
+}
+
+.backache-img {
+  background: url("./images/backache.png") no-repeat;
+  width: 150px;
+  height: 225px;
+  padding-left: 13px;
+}
+
+.biopsy-img {
+  background: url("./images/brain-biopsy.png") no-repeat;
+  width: 150px;
+  height: 225px;
+  padding-left: 11.31px;
+}
+
+.brain-info-cards,
+.backache-info-cards,
+.diagnostic-info-cards,
+.biopsy-info-cards {
+  position: relative;
+}
+
+.brain-info-cards:after,
+.backache-info-cards:after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 29px;
+  top: 182.5px;
+  background-color: #0898b8;
+  opacity: 80%;
+}
+
+.diagnostic-info-cards:after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 41px;
+  top: 170.5px;
+  background-color: #0898b8;
+  opacity: 80%;
+}
+
+.biopsy-info-cards:after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 88px;
+  top: 123.5px;
+  background-color: #0898b8;
+  opacity: 80%;
+}
+
+.brain-tumor-link,
+.backache-link {
+  top: 186px;
+  position: absolute;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.diagnostic-link {
+  line-height: 12px;
+  font-size: 12px;
+  top: 179px;
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.biopsy-link {
+  width: 131px;
+  height: 72px;
+  font-size: 12px;
+  line-height: 12px;
+  top: 131px;
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* mobile app */
+
+#mobile-app {
+  position: relative;
+  min-width: 980px;
+}
+
+.background-bar {
+  background: url("./images/mobile-app-bar.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.background-text {
+  display: flex;
+  align-items: center;
+  height: 79px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 100;
+}
+
+.app-icons {
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+  padding-top: 5px;
+}
+
+/* info links */
+
+#info-links {
+  position: relative;
+  color: #ffffff;
+  height: 302.84px;
+}
+
+.text-link {
+  width: 980px;
+  display: flex;
+  height: 227.5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-description {
+  width: 300.16px;
+  margin: 35px 40px 0 0;
+  display: block;
+  height: 200px;
+  font-size: 14px;
+  text-align: left;
+  font-size: 12px;
+}
+.description {
+  text-decoration: none;
+  color: #312e2e;
+}
+#info-links .title {
+  color: #0898b8;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+.link-line {
+  border: 1px solid #0babce;
+  margin: 5px 0;
+  width: 300.06px;
+  font-weight: 100;
+}
+
+/* footer */
+
+#footer {
+  background-color: #58585a;
+  position: relative;
+  min-width: 980px;
+  height: 177px;
+  font-family: "Open Sans";
+  display: flex;
+  color: #ffffff;
+}
+
+.footer-text {
+  width: 980px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.footer-text > div {
+  width: 100%;
+  font-size: 12px;
+}
+
+#footer-right-text {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px 0 0;
+}
+
+#footer-right-text > a {
+  text-decoration: none;
+  padding: 8px;
+  color: #ffffff;
+}
+
+#honcode-certified-image {
+  width: 36px;
+  height: 51px;
+}
+
+#honcode-certified-text {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 22px;
+  width: 409px;
+  margin: 0;
+  margin-top: 4px;
+  align-items: center;
+}
+
+#copyright {
+  font-size: 12px;
+  line-height: 16px;
+  width: 968px;
+  height: 48px;
+  text-align: left;
+  font-weight: 100;
+}
