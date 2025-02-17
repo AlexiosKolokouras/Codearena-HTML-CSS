@@ -31,7 +31,7 @@ The CSS file defines the website's appearance, using:
 ## 📂 How to Use the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/username/Codearena-HTML-CSS.git
    ```
 2. Open `index.html` in a browser.
 3. Edit `style.css` for appearance customization.
