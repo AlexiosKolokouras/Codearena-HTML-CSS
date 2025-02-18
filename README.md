@@ -36,4 +36,6 @@ The CSS file defines the website's appearance, using:
 2. Open `index.html` in a browser.
 3. Edit `style.css` for appearance customization.
 
+💡 **Happy Coding!** 🚀
+
 ⚡ If you liked this project, don't forget to give a ⭐ on the repository!
